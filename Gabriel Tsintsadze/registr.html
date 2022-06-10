@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="menu-container">
+
+        <a href="index.html"><img src="img/logo.PNG" alt="logo" style="width: 250px; height:180px;"></a>
+        <p><a href="about-us.html">ჩვენს შესახებ</p></a>
+        <p><a href="contact.html">კონტაქტი</a></p>
+        <p><a href="booking.html">დაჯავშნა</a></p>
+        <p><a href="important-places.html">მნიშვნელოვანი ადგილები</a></p>
+        <p><a href="registr.html">რეგისტრაცია</a></p>
+        <p><a href="log-in.html">ავტორიზაცია</a></p>
+        
+        
+        
+        
+    </div> 
+
+    <div class="main-container">
+        <img src="img/sides.jpg" alt="side" style="width: 200px; height:800px">
+
+        <div class="main"><h1 style="text-align: center;">რეგისტრაცია</h1>
+            <div class="registr"> ელ. ფოსტა - <input id="mail" type="text" style="border-radius: 40px;">  <b style="color: red; " id="wrong"></b>
+                <br></br>
+                პაროლი - <input type="password" id="pas" placeholder="მინიმუმ 5 ასო" style="border-radius: 40px;"> <b style="color: red; " id="wrong2"></b>
+                <br><br>
+                დაადასტურეთ პაროლი - <input type="password" id="pas1" style="border-radius: 40px;"> <br><br> პაროლის სირთულე: <b id="g">სირთულეზე დიდ როლს თამაშობს ქერექთერების რაოდენობა! </b>
+                <br><br>
+                რეგისტრაციის თარიღი - <b id="date"></b>
+                <br><br>
+               <span style="margin-left:100px;"> სახელი - <input type="text" placeholder="Changeable/addable" style="border-radius: 40px;"></span>
+                <br><br>
+                <span style="margin-left:100px;"></span>ქვეყანა - <input type="text" placeholder="Changeable/addable" style="border-radius: 40px;"></span>
+                <br><br>
+                <span style="margin-left:100px;"> ქალაქი - <input type="text" placeholder="Changeable/addable" style="border-radius: 40px;">
+                <br><br>
+                <span style="margin-left:5px;"></span>მობილურის ნომერი - <input type="number" placeholder="Changeable/addable" style="border-radius: 40px;">
+                <br><br>
+                <button class="sub" onclick="checkmail()" style="margin-left: 200px; border-radius: 40px; background-image: url('img/reg.jpg'); font-weight: bolder;">დადასტურება</button> <br><br><b id="sub" style="color: green; margin-left: 160px;"></b>
+                
+            
+            
+            
+            
+            
+            
+            </div>
+
+            <a href="log-in.html" style="text-align: center;"><p>გაქვთ უკვე ანგარიში?</p></a>
+        
+        
+        
+        
+        
+        
+        
+        </div>
+
+        <img src="img/sides.jpg" alt="side" style="width: 200px; height:800px">
+
+
+
+
+
+
+    </div>
+    
+
+    <script src="app.js"></script>
+</body>
+</html>
